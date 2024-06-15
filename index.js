@@ -4,7 +4,7 @@ const keep_alive = require('./keep_alive.js')
 
 var username = process.env.username;
 var password = process.env.password;
-//var shared_secret = process.env.shared;
+var shared_secret = process.env.shared;
 
 var games = [730, 440, 570, 218];  // Enter here AppIDs of the needed games
 var status = 1;  // 1 - online, 7 - invisible
